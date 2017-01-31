@@ -1,0 +1,33 @@
+{
+  "name": "fin-html-entities",
+  "version": "1.0.0",
+  "description": "HTML entities decoder for FIN natural language processor",
+  "main": "index.js",
+  "dependencies": {
+    "finnlp": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinNLP/fin-html-entities.git"
+  },
+  "keywords": [
+    "HTML",
+    "entities",
+    "decoder",
+    "for",
+    "FIN",
+    "natural",
+    "language",
+    "processor"
+  ],
+  "author": "Alex Corvi <alex@arrayy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FinNLP/fin-html-entities/issues"
+  },
+  "homepage": "https://github.com/FinNLP/fin-html-entities#readme"
+}
