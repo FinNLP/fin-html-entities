@@ -2,12 +2,12 @@
   "name": "fin-html-entities",
   "version": "1.0.1",
   "description": "HTML entities decoder for FIN natural language processor",
-  "dependencies": {
   "main": "./dist/index.js",
   "types":"./dist/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
     "finnlp": "^1.0.6"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "mocha test"
   },
