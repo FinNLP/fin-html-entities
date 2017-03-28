@@ -1,6 +1,7 @@
 import entities from "./list";
+import {preProcessors} from "finnlp";
 
-export default function(input:string):string{
+preProcessors.push(function(input:string):string{
 	const matches = input.match(/&[a-z0-9#]+;/gi)||[];
 	for (var index = 0; index < matches.length; index++) {
 		var match = matches[index];
@@ -11,4 +12,4 @@ export default function(input:string):string{
 		}
 	}
 	return input;
-}
+});
